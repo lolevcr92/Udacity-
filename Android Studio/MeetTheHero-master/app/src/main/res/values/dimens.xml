@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text sizes-->
+    <dimen name="quizName">30sp</dimen>
+    <dimen name="enterName">25sp</dimen>
+    <dimen name="storyline">20sp</dimen>
+    <dimen name="pickHero">30sp</dimen>
+    <dimen name="headerStage">23sp</dimen>
+    <dimen name="chosenHero">16sp</dimen>
+    <dimen name="question">18sp</dimen>
+    <dimen name="answers">16sp</dimen>
+    <dimen name="nextButtons">18sp</dimen>
+
+
+    <!--General questions paddings/margins-->
+    <item type="integer" name="padParentLayout">2dp</item>
+    <item type="integer" name="padQuestions">25dp</item>
+    <item type="integer" name="padTopQuestions">4dp</item>
+    <item type="integer" name="padAnswers">35dp</item>
+    <item type="integer" name="nextButtonsMargins">7dp</item>
+
+    <!--Intro weigths and paddings/margins-->
+    <item type="integer" name="mainImageWeight">2.5</item>
+    <item type="integer" name="meetTheHeroWeight">0.35</item>
+    <item type="integer" name="enterNameWeight">1</item>
+    <item type="integer" name="storylineWeight">1</item>
+    <item type="integer" name="pickHeroButtonWeight">0.5</item>
+    <item type="integer" name="pickHeroMargin">20dp</item>
+
+    <!--Basic weigths-->
+    <item type="integer" name="questionWeigth">0.2</item>
+    <item type="integer" name="answerRadioWeigth">0.7</item>
+    <item type="integer" name="answerCheckBoxWeigth">1</item>
+
+    <!--Advanced weigths-->
+    <item type="integer" name="answerRadio4Weigth">0.7</item>
+    <item type="integer" name="answerRadio5Weigth">1</item>
+    <item type="integer" name="answerEditTextWeigth">0.3</item>
+
+
+</resources>

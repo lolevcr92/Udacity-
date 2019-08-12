@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/strength</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppTheme.Agility">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/agility</item>
+
+    </style>
+
+    <style name="AppTheme.Strength">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/strength</item>
+
+    </style>
+
+    <style name="AppTheme.Intel">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/intel</item>
+
+    </style>
+
+    <style name="AppTheme.PopTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>

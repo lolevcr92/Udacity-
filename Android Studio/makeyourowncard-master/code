@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/napture1"/>
+
+    <TextView
+        android:id="@+id/winter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00B0FF"
+        android:text="Winter"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text=" is comming!"
+        android:layout_toRightOf="@id/winter"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="20dp"
+
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9100"
+        android:text="Happy Birthday!"
+        android:layout_below="@id/winter"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="70dp"
+        android:paddingTop="0dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/snow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="snow!"
+        android:textColor="#00B0FF"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:textSize="29dp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" with "
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/snow"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="24dp"
+        android:paddingRight="0dp"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/john"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" John,"
+        android:textColor="#00B0FF"
+        android:layout_toLeftOf="@id/snow"
+        android:layout_above="@id/with"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="0dp"
+        android:paddingRight="0dp"
+        android:textSize="29dp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textColor="#FFFFFF"
+        android:layout_above="@id/with"
+        android:layout_toLeftOf="@id/john"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="5dp"
+        android:paddingRight="0dp"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

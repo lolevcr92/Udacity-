@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu">20sp</dimen>
+    <dimen name="field1">18sp</dimen>
+    <dimen name="field2">16sp</dimen>
+
+</resources>

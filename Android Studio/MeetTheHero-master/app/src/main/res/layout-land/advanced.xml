@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.meetthehero.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.example.android.meetthehero.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:background="@color/headerBackground"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/chosen_hero"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/supermanname" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/answerBackground"
+                android:gravity="center"
+                android:text="@string/advanced"
+                android:textAllCaps="true"
+                android:textColor="@color/questionColor"
+                android:textSize="@dimen/headerStage"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/questionWeigth"
+                android:background="@color/questionBackground"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@integer/padQuestions"
+                android:paddingRight="@integer/padQuestions"
+                android:paddingTop="@integer/padTopQuestions"
+                android:text="@string/question4"
+                android:textColor="@color/questionColor"
+                android:textSize="@dimen/question"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/answerRadio4Weigth"
+                android:background="@color/answerBackground"
+                android:paddingLeft="@integer/padAnswers"
+                android:paddingRight="@integer/padAnswers">
+
+                <com.example.android.meetthehero.ToggleButtonGroupTableLayout
+                    android:id="@+id/Question4_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <RadioButton
+                            android:id="@+id/answer_Mary_Jane"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer4.1"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                        <RadioButton
+                            android:id="@+id/answer_Selina_Kyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer4.2"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <RadioButton
+                            android:id="@+id/answer_Lois_Lane"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer4.3"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                        <RadioButton
+                            android:id="@+id/answer_Pepper_Pots"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer4.4"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                    </TableRow>
+
+                </com.example.android.meetthehero.ToggleButtonGroupTableLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/questionWeigth"
+                android:background="@color/questionBackground"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@integer/padQuestions"
+                android:paddingRight="@integer/padQuestions"
+                android:paddingTop="@integer/padTopQuestions"
+                android:text="@string/question5"
+                android:textColor="@color/questionColor"
+                android:textSize="@dimen/question"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/answerEditTextWeigth"
+                android:background="@color/answerBackground"
+                android:orientation="horizontal"
+                android:paddingLeft="@integer/padAnswers"
+                android:paddingRight="@integer/padAnswers">
+
+                <ImageButton
+                    android:id="@+id/play_line"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mediaplay" />
+
+                <EditText
+                    android:id="@+id/Question5_answer"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:hint="@string/hintEditText"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/questionWeigth"
+                android:background="@color/questionBackground"
+                android:fontFamily="serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@integer/padQuestions"
+                android:paddingRight="@integer/padQuestions"
+                android:paddingTop="@integer/padTopQuestions"
+                android:text="@string/question6"
+                android:textColor="@color/questionColor"
+                android:textSize="@dimen/question"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="@integer/answerRadio5Weigth"
+                android:background="@color/answerBackground"
+                android:paddingLeft="@integer/padAnswers"
+                android:paddingRight="@integer/padAnswers">
+
+                <com.example.android.meetthehero.ToggleButtonGroupTableLayout
+                    android:id="@+id/Question6_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <RadioButton
+                            android:id="@+id/answer_Mandarin"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer6.1"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                        <RadioButton
+                            android:id="@+id/answer_Joker"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer6.2"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <RadioButton
+                            android:id="@+id/answer_Doctor_Octopus"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer6.3"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                        <RadioButton
+                            android:id="@+id/answer_Lex_Luthor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer6.4"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <RadioButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="serif"
+                            android:text="@string/answer6.5"
+                            android:textColor="@color/answerColor"
+                            android:textSize="@dimen/answers" />
+
+
+                    </TableRow>
+
+                </com.example.android.meetthehero.ToggleButtonGroupTableLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:background="@color/headerBackground"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="5dp">
+
+            <Button
+                android:id="@+id/next_to_pro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@integer/nextButtonsMargins"
+                android:layout_weight="3"
+                android:background="@color/questionBackground"
+                android:fontFamily="serif"
+                android:text="@string/advancedNext"
+                android:textAllCaps="false"
+                android:textColor="@color/questionColor"
+                android:textSize="@dimen/nextButtons"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.meetthehero.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/headerBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/chosen_hero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/spidername" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/answerBackground"
+            android:gravity="center"
+            android:text="@string/basic"
+            android:textAllCaps="true"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/headerStage"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/questionWeigth"
+            android:background="@color/questionBackground"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="@integer/padQuestions"
+            android:paddingRight="@integer/padQuestions"
+            android:paddingTop="@integer/padTopQuestions"
+            android:text="@string/question1"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/question"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/answerRadioWeigth"
+            android:background="@color/answerBackground"
+            android:paddingLeft="@integer/padAnswers"
+            android:paddingRight="@integer/padAnswers">
+
+            <com.example.android.meetthehero.ToggleButtonGroupTableLayout
+                android:id="@+id/Question1_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/answer_Clark_Kent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer1.1"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                    <RadioButton
+                        android:id="@+id/answer_Bruce_Wayne"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer1.2"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/answer_Peter_Parker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer1.3"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                    <RadioButton
+                        android:id="@+id/answer_Tony_Stark"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/answer1.4"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+
+                </TableRow>
+
+
+            </com.example.android.meetthehero.ToggleButtonGroupTableLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/questionWeigth"
+            android:background="@color/questionBackground"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="@integer/padQuestions"
+            android:paddingRight="@integer/padQuestions"
+            android:paddingTop="@integer/padTopQuestions"
+            android:text="@string/question2"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/question"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/answerCheckBoxWeigth"
+            android:background="@color/answerBackground"
+            android:columnCount="2"
+            android:paddingLeft="@integer/padAnswers"
+            android:paddingRight="@integer/padAnswers"
+            android:rowCount="3">
+
+            <CheckBox
+                android:id="@+id/Laser_beam"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.6"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+            <CheckBox
+                android:id="@+id/Web_shooters"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.5"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+            <CheckBox
+                android:id="@+id/Utility_belt"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.4"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+            <CheckBox
+                android:id="@+id/Strength_speed"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.3"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+            <CheckBox
+                android:id="@+id/Heat_vision"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.2"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+            <CheckBox
+                android:id="@+id/Flight"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:height="0dp"
+                android:fontFamily="serif"
+                android:text="@string/answer2.1"
+                android:textColor="@color/answerColor"
+                android:textSize="@dimen/answers" />
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/questionWeigth"
+            android:background="@color/questionBackground"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="@integer/padQuestions"
+            android:paddingRight="@integer/padQuestions"
+            android:paddingTop="@integer/padTopQuestions"
+            android:text="@string/question3"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/question"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="@integer/answerRadioWeigth"
+            android:background="@color/answerBackground"
+            android:paddingLeft="@integer/padAnswers"
+            android:paddingRight="@integer/padAnswers">
+
+            <com.example.android.meetthehero.ToggleButtonGroupTableLayout
+                android:id="@+id/Question3_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/answer_New_York"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer3.1"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                    <RadioButton
+                        android:id="@+id/answer_Metropolis"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer3.2"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/answer_Gotham"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="serif"
+                        android:text="@string/answer3.3"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+                    <RadioButton
+                        android:id="@+id/answer_Malibu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/answer3.4"
+                        android:textColor="@color/answerColor"
+                        android:textSize="@dimen/answers" />
+
+
+                </TableRow>
+
+
+            </com.example.android.meetthehero.ToggleButtonGroupTableLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/headerBackground"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/next_to_advanced"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@integer/nextButtonsMargins"
+            android:layout_weight="3"
+            android:background="@color/questionBackground"
+            android:fontFamily="serif"
+            android:text="@string/basicNext"
+            android:textAllCaps="false"
+            android:textColor="@color/questionColor"
+            android:textSize="@dimen/nextButtons"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
+

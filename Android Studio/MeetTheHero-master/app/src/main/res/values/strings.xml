@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">MeetTheHero</string>
+
+    <!--Generals-->
+    <string name="superman">Superman</string>
+    <string name="batman">Batman</string>
+    <string name="spiderman">Spider-Man</string>
+    <string name="ironman">Iron Man</string>
+    <string name="time">00:00</string>
+
+    <!--Intro strings-->
+    <string name="quizName">Meet The Hero</string>
+    <string name="editTextName">Enter your name</string>
+    <string name="storyline">Test your Basic, Advanced and Pro knowledge about one of the heroes!</string>
+    <string name="pickHero">Pick Hero</string>
+
+    <!--Basic strings-->
+    <string name="basic">Basic</string>
+    <string name="basicNext">Next to ADVANCED</string>
+    <string name="question1">1. Who\'s behind the mask?</string>
+    <string name="answer1.1">Clark Kent</string>
+    <string name="answer1.2">Bruce Wayne</string>
+    <string name="answer1.3">Peter Parker</string>
+    <string name="answer1.4">Tony Stark</string>
+
+    <string name="question2">2. Abilities from the followings: </string>
+    <string name="answer2.1">Flight</string>
+    <string name="answer2.2">Heat vision</string>
+    <string name="answer2.3">Strength and speed</string>
+    <string name="answer2.4">Utility belt</string>
+    <string name="answer2.5">Web-shooters</string>
+    <string name="answer2.6">Laser beam</string>
+
+    <string name="question3">3. Lives in: </string>
+    <string name="answer3.1">New York</string>
+    <string name="answer3.2">Metropolis</string>
+    <string name="answer3.3">Gotham</string>
+    <string name="answer3.4">Malibu</string>
+
+    <!--Advanced strings-->
+    <string name="advancedNext">Next to PRO</string>
+    <string name="advanced">Advanced</string>
+    <string name="question4">4. Lover?</string>
+    <string name="answer4.1">Mary Jane</string>
+    <string name="answer4.2">Selina Kyle</string>
+    <string name="answer4.3">Lois Lane</string>
+    <string name="answer4.4">Pepper Potts</string>
+
+    <string name="question5">5. Hero\'s famous line? (or related to)</string>
+    <string name="hintEditText">Play. Listen.Type \'yes\' or \'no\'</string>
+
+    <string name="question6">6. One of the main villains: </string>
+    <string name="answer6.1">Mandarin</string>
+    <string name="answer6.2">Joker</string>
+    <string name="answer6.3">Doctor Octopus</string>
+    <string name="answer6.4">Lex Luthor</string>
+    <string name="answer6.5">None of the above</string>
+
+    <!--Pro strings-->
+    <!--                BATMAN         -->
+    <string name="proNext">FINISH</string>
+    <string name="pro">Pro</string>
+    <string name="question8_batman">8. At what age did the man behind the mask started to be Batman? </string>
+    <string name="answer8.1_batman">25</string>
+    <string name="answer8.2_batman">30</string>
+    <string name="answer8.3_batman">35</string>
+
+    <string name="question7_batman">7. Who is Alfred Thaddeus Pennyworth? </string>
+    <string name="answer7.1_batman">Batman\'s father</string>
+    <string name="answer7.2_batman">Batman\'s butler, legal guardian</string>
+    <string name="answer7.3_batman">One of Batman\'s enemies</string>
+
+    <!--                SUPERMAN         -->
+    <string name="question8_superman">8. \'S\' does not refer to \'Superman\'. It is a Kryptonian symbol for: </string>
+    <string name="answer8.1_superman">Power</string>
+    <string name="answer8.2_superman">Hope</string>
+    <string name="answer8.3_superman">Trust</string>
+
+    <string name="question7_superman">7. What are the names of his adoptive parents? </string>
+    <string name="answer7.1_superman">Jack and Megan</string>
+    <string name="answer7.2_superman">John and Maria</string>
+    <string name="answer7.3_superman">Jonathan and Martha</string>
+
+
+    <!--                IRON MAN         -->
+    <string name="question7_ironman">7. What does J.A.R.V.I.S. stand for? (A.I. developed by Iron Man)</string>
+    <string name="answer7.1_ironman">Just A Rather Very Intelligent System</string>
+    <string name="answer7.2_ironman">Just A Real Versatile Intelligent System</string>
+    <string name="answer7.3_ironman">Justified And Real Vast Internal System</string>
+
+    <string name="question8_ironman">8. What\'s the name of the virus inside Iron Man? </string>
+    <string name="answer8.1_ironman">Energo</string>
+    <string name="answer8.2_ironman">Enigma</string>
+    <string name="answer8.3_ironman">Extremis</string>
+
+    <!--                SPIDER-MAN        -->
+    <string name="question7_spider">7. What type of spider bite Spider-Man?</string>
+    <string name="answer7.1_spider">Black Widow</string>
+    <string name="answer7.2_spider">Tarantula</string>
+    <string name="answer7.3_spider">Unknown</string>
+
+    <string name="question8_spider">8. How Uncle Ben died? (Spider-Man\'s uncle) </string>
+    <string name="answer8.1_spider">Shot</string>
+    <string name="answer8.2_spider">Disease</string>
+    <string name="answer8.3_spider">Car crash</string>
+
+
+    <!--End strings-->
+    <string name="answers">Answers</string>
+    <string name="name">Name</string>
+    <string name="finalScore">Final score</string>
+    <string name="restart">RETRY</string>
+
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#06187f</color>
+    <color name="black">#06187f</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="intel">#03A9F4</color>
+    <color name="strength">#D50000</color>
+    <color name="agility">#689F38</color>
+    <color name="intelTransparent">#B303A9F4</color>
+    <color name="strengthTransparent">#B3D50000</color>
+    <color name="agilityTransparant">#B3689F38</color>
+    <color name="points">#e59400</color>
+    <color name="butColor">#c9d1ff</color>
+    <color name="botcolor">#B306187f</color>
+</resources>

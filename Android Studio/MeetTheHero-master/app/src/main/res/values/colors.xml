@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#010101</color>
+    <color name="colorAccent">#9C1B1F</color>
+
+
+    <!--Text-->
+    <color name="headerStage">#010101</color>
+    <color name="questionColor">#010101</color>
+    <color name="answerColor">#010101</color>
+
+    <!--Background-->
+    <color name="headerBackground">#9C1B1F</color>
+    <color name="questionBackground">#EF9A9A</color>
+    <color name="answerBackground">#E0F7FA</color>
+    <color name="introBackground">#E0F7FA</color>
+    <color name="introButton">#9C1B1F</color>
+    <color name="meetTheHero">#010101</color>
+
+</resources>

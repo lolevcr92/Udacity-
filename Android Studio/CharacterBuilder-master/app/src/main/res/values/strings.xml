@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Character Builder</string>
+    <string name="reset">Reset</string>
+    <string name="fight">Fight</string>
+
+
+    <!--starting stats-->
+    <string name="gold">999</string>
+    <string name="life">50</string>
+    <string name="attack">10</string>
+    <string name="armor">10</string>
+    <string name="magic">2</string>
+
+    <!--stats cost-->
+    <string name="strengthCost">50 Gold</string>
+    <string name="agilityCost">50 Gold</string>
+    <string name="intelCost">50 Gold</string>
+
+    <!--stats per stage-->
+    <string name="pointsFirstStage">4</string>
+    <string name="pointsSecondStage">4</string>
+
+    <!--stages-->
+    <string name="firstStage">Mid Game</string>
+    <string name="secondStage">Late Game</string>
+
+    <!--pop up windows-->
+    <string name="stregthText">Strength</string>
+    <string name="agilityText">Agility</string>
+    <string name="intelText">Inteligence</string>
+    <string name="howTo">How To</string>
+    <string name="text"> CharacterBuilder is designed to build 2 different characters by adding points to
+        their 3 main stats (Strength, Agility, Inteligence). Each point increase different attributes (HP, Attack,
+        Shield and Magic). Points are bougth with gold (do not worry, you somehow have unlimited gold). The storyline is
+        based on 2 stages (you can add points in Late game only after full assigning the Mid Game points). Further
+        app development will have a special focus on each stage of the game. Enjoy!</string>
+
+    <string name="oneWin">Arrr..Player 1 has more mojo in his body!!</string>
+    <string name="twoWin">Player 2 is...unstoppable!!</string>
+
+
+</resources>

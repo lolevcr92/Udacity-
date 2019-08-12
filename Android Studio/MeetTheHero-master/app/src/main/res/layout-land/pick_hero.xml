@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/introButton">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="1">
+
+            <ImageButton
+                android:id="@+id/batman_button"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/introButton"
+                android:scaleType="centerCrop"
+                android:src="@drawable/batmanus" />
+
+            <ImageButton
+                android:id="@+id/superman_button"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/introButton"
+                android:onClick="pickSuperman"
+                android:scaleType="centerCrop"
+                android:src="@drawable/supermanus" />
+
+            <ImageButton
+                android:id="@+id/ironman_button"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/introButton"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ironmanus" />
+
+            <ImageButton
+                android:id="@+id/spiderman_button"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@color/introButton"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spidermanus" />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Eyes on Bucharest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Accommodations-->
+    <!--Name-->
+    <string name="accom_embassy">The Embassy Nord</string>
+    <string name="accom_omegaHouse">Omega House</string>
+    <string name="accom_counsins">The Cousins Art and Host</string>
+    <string name="accom_umbrella">Umbrella Hostel</string>
+    <string name="accom_puraVidaHostel">Pura Vida Hostel</string>
+    <string name="accom_liad">Liad Hotel</string>
+    <string name="accom_ibis">Ibis Hotel</string>
+    <string name="accom_comfort">Relax Comfort Suites Hotel</string>
+    <string name="accom_panorama">Panorama Studios</string>
+    <string name="accom_blackAndWhite">Black and White</string>
+    <string name="accom_ave">Ave Hotel Victoriei</string>
+    <!--Address-->
+    <string name="accom_embassy_address">Strada Elizeu, Nr. 16</string>
+    <string name="accom_omegaHouse_address">20 Strada Aurel Vlaicu</string>
+    <string name="accom_counsins_address">Strada Plantelor 27</string>
+    <string name="accom_umbrella_address">General Christian Tell 21</string>
+    <string name="accom_puraVidaHostel_address">Strada Smârdan 7</string>
+    <string name="accom_liad_address">Strada Coltei nr. 44</string>
+    <string name="accom_ibis_address">82 84, Izvor Street</string>
+    <string name="accom_comfort_address">22 Nicolae Balcescu Bulevard</string>
+    <string name="accom_panorama_address">Bdul Regina Elisabeta nr 25</string>
+    <string name="accom_blackAndWhite_address">Bulevardul Nicolae Bălcescu Nr. 16</string>
+    <string name="accom_ave_address">Maltopol 22</string>
+    <!--Web-->
+    <string name="accom_embassy_web">http://embassy-nord.ro/</string>
+    <string name="accom_omegaHouse_web">https://www.omegahouse.ro/</string>
+    <string name="accom_counsins_web">https://www.booking.com/hotel/ro/the-cousins-art-amp-host.ro.html</string>
+    <string name="accom_umbrella_web">http://umbrellahostel.com/</string>
+    <string name="accom_puraVidaHostel_web">http://sky.puravidahostels.ro/</string>
+    <string name="accom_liad_web">http://liadhotel.com/</string>
+    <string name="accom_ibis_web">http://www.ibishotels.ro/hotel-ibis-bucuresti-palatul-parlamentului</string>
+    <string name="accom_comfort_web">http://www.relaxcomfort-suites.ro/</string>
+    <string name="accom_panorama_web">https://www.airbnb.com/rooms/20048340</string>
+    <string name="accom_blackAndWhite_web">http://blackwhite1.business.site/</string>
+    <string name="accom_ave_web">http://www.avehotel.ro/</string>
+
+    <!--Traditional Restaurants-->
+    <!--Name-->
+    <string name="rest_carucubere">Caru cu bere</string>
+    <string name="rest_citygrill">City Grill</string>
+    <string name="rest_cocos">Doi Cocosi</string>
+    <string name="rest_cuptorulculemne">Cuptorul cu lemne</string>
+    <string name="rest_hanulluimanuc">Hanul lui Manuc</string>
+    <string name="rest_lacopac">La Copac</string>
+    <string name="rest_lacrimisisfinti">Lacrimi si sfinti</string>
+    <string name="rest_mahala">Mahala</string>
+    <string name="rest_oldsibiu">The Old Sibiu</string>
+    <string name="rest_zexe">Zexe</string>
+
+    <!--Address-->
+    <string name="rest_carucubere_address"> Stavropoleos 5</string>
+    <string name="rest_citygrill_address">Covaci 19</string>
+    <string name="rest_cocos_address">Sos Bucuresti-Targoviste 8</string>
+    <string name="rest_cuptorulculemne_address">Pache Protopopescu 65</string>
+    <string name="rest_hanulluimanuc_address">Str. Franceza 62</string>
+    <string name="rest_lacopac_address">Pitar Moș 23</string>
+    <string name="rest_lacrimisisfinti_address">Șepcari 16</string>
+    <string name="rest_mahala_address">Calea Rahovei 147"-"153</string>
+    <string name="rest_oldsibiu_address">Ion Otetelesanu 3</string>
+    <string name="rest_zexe_address">Icoanei 80</string>
+
+    <!--NightLife-->
+    <!--Name-->
+    <string name="club_control">Control Club</string>
+    <string name="club_expirat">Expirat</string>
+    <string name="club_fire">Fire Club</string>
+    <string name="club_silverchurch">The Silver Church Club</string>
+    <string name="club_shoteria">Shoteria</string>
+    <string name="club_bistro">J ai Bistro</string>
+    <string name="club_eden">Gradina Eden</string>
+    <string name="club_interbelic">Interbelic</string>
+    <string name="club_nuba">Nuba Summervibes</string>
+    <string name="club_e3">E3 by Entourage</string>
+
+    <!--Address-->
+    <string name="club_control_address">4, Constantin Mille St.</string>
+    <string name="club_expirata_address">Strada Doctor Constantin Istrati 1</string>
+    <string name="club_fire_address">Strada Gabroveni 12</string>
+    <string name="club_silverchurch_address">Calea Plevnei 61</string>
+    <string name="club_shoteria_address">Strada Șelari 17</string>
+    <string name="club_bistro_address">Calea Griviței 55</string>
+    <string name="club_eden_address">Calea Victoriei 107</string>
+    <string name="club_interbelic_address">Calea Victoriei 17</string>
+    <string name="club_nuba_address">Șoseaua Nordului 22</string>
+    <string name="club_e3_address">Calea Floreasca 111,113</string>
+
+    <!--Sightseeing-->
+    <!--Name-->
+    <string name="site_cismigiu">Cismigiu Gardens</string>
+    <string name="site_muzeultaranului">Museum of the Romanian Peasant</string>
+    <string name="site_parlament">Palace of Parliament</string>
+    <string name="site_belu">Bellu Cemetery</string>
+    <string name="site_antipa">Grigore Antipa Museum of Natural History</string>
+    <string name="site_maccavilacrosse">Pasajul Macca-Vilacrosse</string>
+    <string name="site_mogosoaia">Mogoşoaia Palace</string>
+    <string name="site_observator">Admiral Vasile Urseanu Observatory</string>
+    <string name="site_vacaresti">Vacaresti: Bucharest Urban Wilderness</string>
+    <string name="site_ceausescu">Spring Palace, Ceausescu Residence</string>
+
+    <!--Address-->
+    <string name="site_cismigiu_address">Entrance from B-dul Regina Elisabeta</string>
+    <string name="site_muzeultaranului_address">Soseaua Kiseleff 3</string>
+    <string name="site_parlament_address">2,4  Izvor Street</string>
+    <string name="site_belu_address">Calea Serban Voda 249</string>
+    <string name="site_antipa_address">Şos. Kiseleff 1 , Piata Victoriei</string>
+    <string name="site_maccavilacrosse_address">Calea Victoriei , Old Town</string>
+    <string name="site_mogosoaia_address">1, Strada Valea Parcului, Mogoşoaia</string>
+    <string name="site_observator_address"> B-dul Lascar Catargiu 21 , Piata Romana</string>
+    <string name="site_vacaresti_address">Splaiul Unirii, nr. 168,</string>
+    <string name="site_ceausescu_address">B-dul Primaverii 50 , Aviatorilor</string>
+
+    <!--Transportation-->
+    <!--Name-->
+    <string name="tran_metro">Subway network</string>
+    <string name="tran_public">Buses and Trams network</string>
+    <string name="tran_taxify">Taxify</string>
+    <string name="tran_uber">Uber</string>
+    <string name="tran_train">Trains newtwork</string>
+
+    <!--Type-->
+    <string name="tran_metro_type">Ticket based</string>
+    <string name="tran_public_type">Ticket Based</string>
+    <string name="tran_taxify_type">Ride sharing - online app</string>
+    <string name="tran_uber_type">Ride sharing - online app</string>
+    <string name="tran_train_type">Ticket based</string>
+
+    <!--Basic language-->
+    <!--English-->
+    <string name="language_1_en">Good morning</string>
+    <string name="language_2_en">Good night</string>
+    <string name="language_3_en">My name is...</string>
+    <string name="language_4_en">I am a tourist</string>
+    <string name="language_5_en">How do I get to...</string>
+    <string name="language_6_en">What time is it?</string>
+    <string name="language_7_en">Where is the bus/tram station?</string>
+    <string name="language_8_en">Where is the subway entrance?</string>
+    <string name="language_9_en">What time do they open?</string>
+    <string name="language_10_en">What time do they close?</string>
+    <string name="language_11_en">How much for...</string>
+    <string name="language_12_en">Keep the change</string>
+    <string name="language_13_en">Yes. No</string>
+    <string name="language_14_en">One, two, three, four, five, six, seven, eight, nine, ten</string>
+    <string name="language_15_en">A hundred, a thousand</string>
+
+    <!--Romana-->
+    <string name="language_1_ro">Bună dimineața</string>
+    <string name="language_2_ro">Noapte bună</string>
+    <string name="language_3_ro">Mă numesc...</string>
+    <string name="language_4_ro">Sunt turist</string>
+    <string name="language_5_ro">Cum ajung la...</string>
+    <string name="language_6_ro">Cât este ora?</string>
+    <string name="language_7_ro">Unde este stația pentru autobuz/tramvai?</string>
+    <string name="language_8_ro">Unde este intrarea la metrou?</string>
+    <string name="language_9_ro">La ce oră deschide?</string>
+    <string name="language_10_ro">La ce oră inchide?</string>
+    <string name="language_11_ro">Cât costa...</string>
+    <string name="language_12_ro">Păstrează restul</string>
+    <string name="language_13_ro">Da. Nu</string>
+    <string name="language_14_ro">Unu, doi, trei, patru, cinci, șase, șapte, opt, nouă, zece</string>
+    <string name="language_15_ro">O sută, o mie</string>
+
+</resources>

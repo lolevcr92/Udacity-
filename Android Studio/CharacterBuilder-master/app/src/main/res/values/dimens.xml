@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textMain">18sp</dimen>
+    <dimen name="buttons">22sp</dimen>
+    <dimen name="stats">20sp</dimen>
+    <dimen name="points">17sp</dimen>
+
+
+    <!--weights and others-->
+    <item type="integer" name="weightTop">4.5</item>
+    <item type="integer" name="weightView">0.05</item>
+    <item type="integer" name="weightBot">5</item>
+    <item type="integer" name="weightReset">0.8</item>
+    <item type="integer" name="weightMainScreen">5</item>
+    <item type="integer" name="weightMid">3</item>
+    <item type="integer" name="weightStatsCost">0.5</item>
+    <item type="integer" name="weightTopMid">3.5</item>
+    <item type="integer" name="weightBotMainScreen">5</item>
+    <item type="integer" name="weightBotMidScreen">3</item>
+    <item type="integer" name="player">1.1</item>
+    <item type="integer" name="botPoints">1.1</item>
+    <item type="integer" name="maxBar">8</item>
+    <item type="integer" name="initialBar">2</item>
+
+    <!--item padding/margins-->
+    <dimen name="paddingMain">3dp</dimen>
+    <dimen name="marginTopMain">15dp</dimen>
+    <dimen name="marginMain">3dp</dimen>
+    <dimen name="paddingCharacter">5dp</dimen>
+    <dimen name="paddingStats">12dp</dimen>
+    <dimen name="paddingStatsCost">25dp</dimen>
+    <dimen name="paddingButtons">10dp</dimen>
+    <dimen name="paddingResetSides">20dp</dimen>
+    <dimen name="paddingResetTopBot">10dp</dimen>
+    <dimen name="marginMidBars">11dp</dimen>
+    <dimen name="marginTopScreen">4dp</dimen>
+    <dimen name="marginMarginInfo">5dp</dimen>
+    <dimen name="paddingQuestion">15dp</dimen>
+
+
+
+
+</resources>
